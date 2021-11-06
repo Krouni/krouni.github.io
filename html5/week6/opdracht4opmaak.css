@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana;
+    background-color: darkgrey;
+    color: darkblue;
+}
+
+h1 {
+    background-color: red;
+    text-transform: lowercase;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.stippeltjesrand {
+    border-style: dotted;
+}
+
+ul{
+    list-style-image: url(check-circle-solid.svg);
+}

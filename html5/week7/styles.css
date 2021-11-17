@@ -1,0 +1,44 @@
+body {
+    width: 1200px;
+}
+
+.header {
+    background-image: url(header.jpg);
+    height: 100px;
+}
+
+.header h1  {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: dimgrey;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a {
+    color: lawngreen;
+    text-underline: grey;
+}
+
+#artikel1,#artikel2, #artikel3, #artikel4{
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.section2 a {
+    color: blue;
+}
+
+section h1{
+    font-size: 30px;
+    color: dimgrey;
+    text-decoration: underline;
+}
+

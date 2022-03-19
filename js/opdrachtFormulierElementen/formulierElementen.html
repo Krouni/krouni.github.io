@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="">
+    <script type="text/javascript" charset="utf-8"
+            src=""></script>
+    <title>Title</title>
+</head>
+<body>
+<main>
+    <form action ="" method ="post">
+        <label for="name">First name*:</label>
+        <input type="text" name="Name" id="name" required placeholder="Your first name"/>
+        <br/>
+
+        <label for="lastName">Last name*:</label>
+        <input type="text" name="LastName" id="lastName" required placeholder="Your last name"/>
+        <br/>
+
+        Which sport do you train?
+        <br/>
+        Running<input type="checkbox" id="Running" value="running"/>
+        <br/>
+        Swimming<input type="checkbox" id="Swimming" value="Swimming"/>
+        <br/>
+        Rowing<input type="checkbox" id="Rowing" value="Rowing"/>
+        <br/>
+
+        What is your gender?
+        <br/>
+        <input type="radio" id="Male" value="Male"/>Male
+        <br/>
+        <input type="radio" id="Female" value="Female"/>Female
+        <br/>
+
+        <label for="FavoriteMovie">Favorite movie:</label>
+        <input type="text" name="movie" id="FavoriteMovie"/>
+        <br/>
+
+        <label for="FavoriteQuote">Favorite movie:</label>
+        <input type="text" name="quote" id="FavoriteQuote" placeholder="Write your favorite quote"/>
+        <br/>
+
+        <label for="password">password*:</label>
+        <input type="text" name="password" id="password"/>
+        <br/>
+
+        Favorite Food: <input list="food" name="food"/>
+        <datalist id="food">
+            <option value="Pitta">
+            <option value="Hamburger"></option>
+        </datalist>
+        <br/>
+
+        <input type="file"/>
+        <br/>
+
+        Email adress: <input type="text" id="email" placeholder="Enter your email adress"/>
+        <br/>
+        Favorite site: <input type="text" id="site" placeholder="Enter the URL of your favorite site"/>
+        <br/>
+
+        Favorite number between 1-10: <input type="number" id="number" min="1" max="10"/>
+        <br/>
+
+        Favorite number between 11-1000: <input type="range" id="range" min="11" max="1000"/>
+        <br/>
+
+        When were you born? <input type="date" name="date" placeholder="Dag/Maand/Jaar"/>
+
+        <br/>
+
+        Belgium zip-code reg number*: <input type="text" pattern="[1-9][0-9] {3}" title="9999"/>
+
+        <br/>
+
+        Search for something: <input type="search" name="txtSearch"/>
+        <br/>
+
+        What is your favorite color? <input type="color" id="color"/>
+        <br/>
+
+        <input type="submit"/>
+
+    </form>
+</main>
+</body>
+</html>
